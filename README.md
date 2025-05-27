@@ -1,59 +1,120 @@
-# 🧠 Sistema de Notas Personal — Segundo Cerebro con Obsidian
+# 🧠 Gentleman Notes — Segundo Cerebro con Obsidian
 
-Este vault está diseñado para capturar, organizar y conectar todo el conocimiento que adquiero como estudiante de desarrollo de software. El sistema combina ideas de Zettelkasten, PARA y Second Brain.
+Este vault está diseñado como un "segundo cerebro" para capturar, organizar y conectar el conocimiento que adquiero como estudiante de desarrollo de software. Se basa en principios de Zettelkasten, PARA y Second Brain, optimizado para uso con Obsidian y Neovim.
 
 ---
 
-## 📁 Estructura de carpetas
-```
-Obsidian Vault/  
-│  
-├── 00-Inbox/ ← Notas rápidas o sin clasificar aún  
-├── 01-Tasks/ ← Tareas diarias, recordatorios de acción  
-├── 02-Know/ ← Notas atómicas de conocimiento (zettels)  
-├── 03-Logs/ ← Clases, reuniones, lecturas ordenadas por fecha  
-├── 04-Projects/ ← Proyectos reales o personales  
-├── 05-Hubs/ ← Mapa mental por temas (acceso centralizado)  
-├── Resources/ ← Archivos, PDFs, enlaces, libros  
-├── Templates/ ← Plantillas para cada tipo de nota  
-└── README.md ← Este archivo
+## 📁 Estructura del Vault
 
 ```
-
-
-
----
-
-## 📌 Cómo usar este sistema
-
-- 📥 **Inbox**: capturo cualquier idea, inspiración o apunte rápido.
-- ✅ **Tasks**: registro lo que necesito hacer hoy o esta semana.
-- 🧠 **Know**: convierto ideas claras en notas atómicas, bien explicadas.
-- 📝 **Logs**: apunto lo que aprendo en una clase o sesión específica.
-- 🚀 **Projects**: organizo los pasos de un proyecto con tareas y referencias.
-- 🧭 **Hubs**: agrupo muchas notas bajo un mismo tema central (por ejemplo: [[hub/ingenieria-software]]).
-- 📚 **Resources**: guardo links, libros, PDFs o recursos descargables.
+HatNotes/              ← Carpeta raíz del Vault
+│
+├── 0-Inbox/           ← Notas rápidas o sin clasificar aún
+├── 1-Tasks/           ← Tareas diarias, acciones o recordatorios
+├── 2-Know/            ← Notas atómicas de conocimiento (zettels)
+├── 3-Logs/            ← Bitácora diaria: clases, pensamientos, lecturas
+├── 4-Projects/        ← Proyectos activos o pasados
+├── 5-Hubs/            ← Centros de temas clave (mapas mentales)
+├── 6-Ref/             ← (Opcional) Bibliografía, libros, PDFs, papers
+├── 7-Tmpl/            ← Plantillas reutilizables para cada tipo de nota
+└── README.md          ← Este archivo
+```
 
 ---
 
-## 🔗 Principios clave
+## 🧠 ¿Cómo usar este sistema?
 
-- **Atomicidad**: cada nota en `Know/` trata solo un concepto, idea o técnica.
-- **Conexión**: todas las notas están entrelazadas con enlaces [[como este]].
-- **Reutilización**: cada nota es útil por sí misma y combinable con otras.
-- **Acción**: toda información debería generar tareas, decisiones o nuevas notas.
+- 📥 **Inbox (`0-Inbox/`)**: Captura todo lo que se te ocurra: frases, links, ideas.
+    
+- ✅ **Tasks (`1-Tasks/`)**: Lista de tareas para revisar a diario o semanalmente.
+    
+- 🧠 **Know (`2-Know/`)**: Notas atómicas, cada una con un concepto explicado y enlazado.
+    
+- 📓 **Logs (`3-Logs/`)**: Bitácora cronológica, útil como diario o clase anotada.
+    
+- 🚀 **Projects (`4-Projects/`)**: Planificación detallada de proyectos personales o académicos.
+    
+- 🧭 **Hubs (`5-Hubs/`)**: Vista panorámica sobre temas amplios como [[hub/ingenieria-software]].
+    
+- 📚 **Ref (`6-Ref/`)** _(opcional)_: Libros, papers, PDFs, páginas webs citadas.
+    
+- 🧰 **Templates (`7-Tmpl/`)**: Carpeta que contiene todas las plantillas base.
+    
 
 ---
 
-## 🧪 Plantillas disponibles
+## 🔑 Principios del sistema
 
-- 📥 `00-Inbox`: notas rápidas
-- ✅ `01-Tasks`: tareas diarias
-- 🧠 `02-Know`: conocimiento atómico
-- 📝 `03-Logs`: apuntes cronológicos
-- 🚀 `04-Projects`: planificación de proyectos
-- 🧭 `05-Hubs`: mapas de conocimiento
-
-Todas disponibles en la carpeta `/7.Tmpl.
+- **Atomicidad**: Cada nota en `2-Know/` debe explicar un solo concepto o idea.
+    
+- **Conexión**: Usa enlaces bidireccionales para unir ideas relacionadas.
+    
+- **Entrada Única**: Todo comienza por `0-Inbox/` o `3-Logs/` y se refina desde allí.
+    
+- **Acción y Reflexión**: Toma decisiones, tareas y notas desde lo que aprendes.
+    
 
 ---
+
+## 📄 Plantillas disponibles (`7-Tmpl/`)
+
+- `inbox.md` → Captura rápida
+    
+- `task.md` → Tarea detallada
+    
+- `know.md` → Conocimiento atómico
+    
+- `log.md` → Bitácora diaria (tipo daily note)
+    
+- `project.md` → Seguimiento de proyecto
+    
+- `hub.md` → Centro de temas enlazados
+    
+
+Cada plantilla está diseñada para ayudarte a no perder el foco y organizar la información de manera sostenible.
+
+---
+
+## ⚙️ Integración con Neovim
+
+Este sistema es compatible con el plugin `obsidian.nvim` para una experiencia fluida en Neovim:
+
+- Crea y abre notas desde Neovim
+    
+- Plantillas automáticas para `3-Logs/`
+    
+- Keybindings personalizados para abrir la nota diaria (`<leader>od`)
+    
+
+**Nota**: En tu configuración de `obsidian.nvim`, asegúrate de tener:
+
+```lua
+daily_notes = {
+  folder = "3-Logs",
+  template = "7-Tmpl/daily.md",
+},
+```
+
+---
+
+## 🚀 Flujo de trabajo sugerido
+
+1. **Captura rápida en `0-Inbox/`** cada vez que aprendes, ves o piensas algo.
+    
+2. **Revisa tus tareas en `1-Tasks/`** y crea nuevas desde lo aprendido.
+    
+3. **Transforma ideas en `2-Know/`**: convierte notas vagas en conocimiento atómico.
+    
+4. **Usa `3-Logs/` para diario de estudio o resumen de clases.**
+    
+5. **Crea un `4-Projects/` para seguir entregas, objetivos y tareas relacionadas.**
+    
+6. **Agrupa conceptos en `5-Hubs/`** por temática para tener contexto global.
+    
+7. **Agrega fuentes externas en `6-Ref/` cuando sea necesario.**
+    
+
+---
+
+Este sistema fue diseñado para crecer contigo.  
+Puedes adaptarlo libremente a tu flujo de aprendizaje y trabajo profesional.

@@ -168,10 +168,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a55c4944bc495e73",
+  "active": "487c28bc5e9caf1b",
   "lastOpenFiles": [
-    "4-Projs/journal-manager/README.md",
+    "6-Ref",
+    "7-Tmpl/daily.md",
     "README.md",
+    "4-Projs/journal-manager/README.md",
     "7-Tmpl/task-tmpl.md",
     "7-Tmpl/projs-tmpl.md",
     "4-Projs/journal-manager/tareas.md",
