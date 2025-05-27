@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "38ae06f1882b570f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e844c21588a24a68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a55c4944bc495e73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "befa8e2866352ce4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4703d129eae3dc35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "487c28bc5e9caf1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "89cd65e86055c853",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e4e41fca83c9715",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "635be99ee1af13dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce00c7d6fbb8d1d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "860ce915b3f1b172",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "7-Tmpl/projs-tmpl.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for projs-tmpl"
+            }
+          },
+          {
+            "id": "663dc943fd1647ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "7-Tmpl/projs-tmpl.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from projs-tmpl"
+            }
+          },
+          {
+            "id": "7fba1a1a4e819b83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6ec60ed786639907",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7-Tmpl/projs-tmpl.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of projs-tmpl"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "a55c4944bc495e73",
+  "lastOpenFiles": [
+    "4-Projs/journal-manager/README.md",
+    "README.md",
+    "7-Tmpl/task-tmpl.md",
+    "7-Tmpl/projs-tmpl.md",
+    "4-Projs/journal-manager/tareas.md",
+    "4-Projs/journal-manager/api-design.md",
+    "4-Projs/journal-manager/arquitectura.md",
+    "5-Hubs/ingenieria-software.md",
+    "4-Projs/journal-manager",
+    "4-Projs/Sin título.md",
+    "7-Tmpl/log-tmpl.md",
+    "hub/ingenieria-software.md",
+    "hub",
+    "7-Tmpl/know-tmpl.md",
+    "Untitled.canvas",
+    "0-Inbox/2025-05-27-nota-ejemplo.md",
+    "7-Tmpl/hub-tmpl.md",
+    "4-Projs",
+    "7-Tmpl/inbox-tmpl.md",
+    "7-Tmpl/nota-concepto.md",
+    "6-Logs",
+    "5-Hubs/Untitled",
+    "logs/2025-05-27-clase-notas.md",
+    "logs",
+    "2-Know/abstraccion.md",
+    "1-Tasks/2025-05-27-tareas.md.md",
+    "Untitled.md",
+    "5-Hubs",
+    "7-Tmpl",
+    "4-Refs",
+    "3-Logs",
+    "Welcome.md"
+  ]
+}
