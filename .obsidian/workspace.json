@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "3-Logs/2025-06-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025-06-02"
             }
           }
         ]
@@ -168,13 +168,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "487c28bc5e9caf1b",
+  "active": "a55c4944bc495e73",
   "lastOpenFiles": [
-    "6-Ref",
     "7-Tmpl/daily.md",
+    "0-Inbox/2025-05-27-nota-ejemplo.md~",
+    "3-Logs/2025-06-01.md~",
+    "3-Logs/2025-06-01.md",
+    "7-Tmpl/hub-tmpl.md",
+    "7-Tmpl/log-tmpl.md",
     "README.md",
-    "4-Projs/journal-manager/README.md",
     "7-Tmpl/task-tmpl.md",
+    "6-Ref",
+    "4-Projs/journal-manager/README.md",
     "7-Tmpl/projs-tmpl.md",
     "4-Projs/journal-manager/tareas.md",
     "4-Projs/journal-manager/api-design.md",
@@ -182,13 +187,11 @@
     "5-Hubs/ingenieria-software.md",
     "4-Projs/journal-manager",
     "4-Projs/Sin título.md",
-    "7-Tmpl/log-tmpl.md",
     "hub/ingenieria-software.md",
     "hub",
     "7-Tmpl/know-tmpl.md",
     "Untitled.canvas",
     "0-Inbox/2025-05-27-nota-ejemplo.md",
-    "7-Tmpl/hub-tmpl.md",
     "4-Projs",
     "7-Tmpl/inbox-tmpl.md",
     "7-Tmpl/nota-concepto.md",
@@ -200,9 +203,6 @@
     "1-Tasks/2025-05-27-tareas.md.md",
     "Untitled.md",
     "5-Hubs",
-    "7-Tmpl",
-    "4-Refs",
-    "3-Logs",
     "Welcome.md"
   ]
 }

@@ -1,3 +1,9 @@
+---
+id: 2025-05-27-nota-ejemplo
+aliases: []
+tags: []
+---
+
 # Clase de Ingeniería de Software
 
 - Me gustó la idea de que la abstracción es ocultar detalles y enfocarse en lo esencial.
