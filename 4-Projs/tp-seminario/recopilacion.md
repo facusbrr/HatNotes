@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# Proyectos
+# Recopilacion Seminario
 
 ## Coco SSD
 
@@ -95,3 +95,66 @@ la cabeza.. Se utiliza el modelo MediaPipeFaceMesh de TensorFlow para obtener pu
 clave del rostro. Los resultados se visualizan sobre un canvas superpuesto al video
 en vivo. El número de rostros detectados se actualiza en tiempo real junto con los
 indicadores visuales de ojos y emociones.
+
+## BodyPix
+
+Este proyecto es una aplicación web interactiva que utiliza el modelo BodyPix de
+TensorFlow.js para segmentar personas en imágenes, videos y la cámara web en tiempo
+real. Permite al usuario seleccionar entre usar la webcam, cargar una imagen o un
+video, y muestra el resultado segmentado en un canvas, resaltando la figura humana
+sobre el fondo original. Todo el procesamiento se realiza en el navegador, sin necesidad
+de servidores externos.
+
+## PoseNett
+
+Este proyecto hace uso de PoseNet, un modelo de inteligencia artificial capaz de
+identificar posturas humanas a partir de imágenes o secuencias de video. Su tarea
+principal consiste en localizar puntos específicos del cuerpo como las articulaciones
+de hombros, codos, muñecas, caderas, rodillas y tobillos y, a partir de ellos, construir
+una representación digital del esqueleto. Esto permite interpretar y mostrar en tiempo
+real la posición y el movimiento de una persona.
+
+## Speech Command
+
+Speech Commands es un modelo de inteligencia artificial diseñado para reconocer comandos
+de voz simples en tiempo real. Funciona capturando audio a través del micrófono y
+convirtiéndolo en un espectrograma, una representación visual del sonido. Luego,
+una red neuronal analiza ese espectrograma para identificar palabras clave como
+"yes", "no", "stop" o "go". Esto permite controlar aplicaciones con la voz desde
+el navegador, sin necesidad de servidores externos.
+
+## MediaPipeHands
+
+El modelo MediaPipe Hands de TensorFlow permite detectar y rastrear manos
+humanas en imágenes o video en tiempo real. Reconoce hasta 21 puntos clave
+por mano, incluyendo la palma y cada articulación de los dedos, lo que permite
+identificar gestos con gran precisión. A diferencia de modelos más simples,
+puede seguir una o ambas manos incluso en movimiento o parcialmente ocultas.
+
+## Face Landmarks Detection
+
+Este proyecto es una aplicación web que utiliza TensorFlow.js para detectar rostros
+en tiempo real mediante la cámara del usuario. Permite identificar expresiones faciales
+como sonrisa, guiño, ojos cerrados y hablar, además de detectar la rotación de
+la cabeza..Se utiliza el modelo MediaPipeFaceMesh de TensorFlow para obtener puntos
+clave del rostro. Los resultados se visualizan sobre un canvas superpuesto al video
+en vivo. El número de rostros detectados se actualiza en tiempo real junto con los
+indicadores visuales de ojos y emociones.
+
+## Question and Answer
+
+El sistema desarrollado es una aplicación web interactiva que permite realizar
+preguntas en lenguaje natural, en español, sobre un texto cargado por el usuario,
+y obtener respuestas automáticas generadas por un modelo de inteligencia artificial.
+Este modelo se basa en tecnologías avanzadas de Procesamiento de Lenguaje Natural
+(PLN) y se ejecuta completamente en el navegador.
+
+## Universal Sentence Encoder
+
+El proyecto consiste en una interfaz de preguntas y respuestas (Q&A).
+Utiliza el modelo pre entrenado Universal Sentence Encoder (USE). Este
+modelo transforma oraciones en vectores numéricos de 512 dimensiones,
+capturando su significado semántico. Permite procesar un dataset textual
+con pares de preguntas y respuestas sobre el libro de tensorflow en forma de
+embeddings. Al realizar una consulta, su vector se compara con los existentes
+devolviendo los más similares.
