@@ -1,10 +1,10 @@
 ---
 id: nest-fundamentos
 aliases:
-  - "\[]"
+  - "[]"
 tags:
-  - "\[concepto,"
-  - nestjs]
+  - concepto
+  - nestjs
 ---
 
 # NestJS – Fundamentos

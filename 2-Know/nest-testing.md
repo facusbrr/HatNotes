@@ -1,11 +1,10 @@
 ---
 id: nest-testing
 aliases:
-  - "\[]"
+  - "[]"
 tags:
-  - "\[#nestjs,"
-  - #testing,
-  - #concepto]
+  - nestjs
+  - testing
 ---
 
 # Título: Testing en NestJS

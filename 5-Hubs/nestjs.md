@@ -1,10 +1,10 @@
 ---
 id: nestjs-hub
 aliases:
-  - "\[]"
+  - "[]"
 tags:
-  - "\[hub,"
-  - nestjs]
+  - hub
+  - nestjs
 ---
 
 # Hub NestJS
